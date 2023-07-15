@@ -89,3 +89,32 @@ nav li a{
     }
     
 }
+
+/*  main   */
+main{
+    max-width: 1440px;
+    margin: 0 auto
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.teams-content{
+    padding: 0px 70px;
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+.teams-title .quick{
+    color: #727272;
+    font-weight: 500;
+}
+.teams-title .text{
+    color: #FF900E;
+    font-weight: 700;
+}
