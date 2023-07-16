@@ -118,6 +118,21 @@ main{
     color: #424242;
     margin: 10px 0px;
 }
+/* sponsors  */
+.sponsors{
+    text-align: center;
+}
+.sponsors-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+}
+.sponsors-container img{
+    width: 165px;
+    height: 50px;
+}
 
 
 /* responsive   */
@@ -126,14 +141,17 @@ main{
     header{
         padding: 20px;
     }
-    nav, .teams-container{
+    nav, .teams-container, .container-cards, .sponsors-container{
         flex-direction: column;
     }
     .image-container{
         grid-template-columns: 1fr;
     }
-    .teams-content{
+    .teams-content, .container-cards{
         padding: 0px 20px;
+    }
+    .container-cards{
+        gap: 20px;
     }
 }
 
@@ -143,7 +161,7 @@ main{
     header{
         padding: 50px;
     }
-    nav, .teams-container{
+    nav, .teams-container, .sponsors-container{
         flex-direction: column;
     }
     
