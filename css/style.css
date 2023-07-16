@@ -171,7 +171,21 @@ main{
     width: 165px;
     height: 50px;
 }
-
+/*     footer     */
+.footer-content{
+    width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    margin: 50px auto;
+}
+.footer-content p{
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 40px;
+}
 
 /* responsive   */
 
@@ -199,6 +213,10 @@ main{
     .container-cards{
         gap: 20px;
     }
+    .footer-content{
+        max-width: 550px;
+        margin-right: 25px;
+    }
 }
 
 /*   medium   */
@@ -209,6 +227,11 @@ main{
     }
     nav, .teams-container, .sponsors-container, .feature{
         flex-direction: column;
+    }
+    
+    .footer-content{
+        max-width: 920px;
+        margin-right: 10px;
     }
     
 }
